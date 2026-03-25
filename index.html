@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealer Group Widget</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 32px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Dealer Group Widget</h1>
+        <p>This is a sample HTML page. Customize this content as needed for your project.</p>
+    </div>
+
+    <cs-buy-widget-v2 
+        data-qa="cs-buy-widget-2" 
+        vin="1C6RRFFG2SN511906" 
+        campaign-id="b192496r-0231-5k50-982c-1l281473d274" 
+        dev
+        >
+            View Deal
+    </cs-buy-widget-v2>
+
+    <script type='text/javascript'
+  src="https://crsv-widgets-dev.s3.amazonaws.com/v3/dealer-cta-plugin/cs-buy-widget-v2.min.js"></script>
+</body>
+</html>
